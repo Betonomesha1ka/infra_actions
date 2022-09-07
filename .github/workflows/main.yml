@@ -38,7 +38,7 @@ jobs:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: milo4ka0503/infra_actions:latest
+          tags: milo4ka0503/infra_actions:v1
 
   deploy:
     runs-on: ubuntu-latest
